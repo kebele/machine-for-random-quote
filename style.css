@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Gotu&family=Indie+Flower&family=Spicy+Rice&display=swap');
+
+body {
+  background-color : orange;
+}
+
+.wrapper {  
+  height : 100vh;
+}
+
+.box {
+  background-color : lightgray;
+/*   font-family: 'Gotu', sans-serif; */
+/*   font-family: 'Spicy Rice', cursive; */
+/*   font-family: 'Caveat', cursive; */
+  font-family: 'Courgette', cursive;
+  font-size : 26px;
+  font-weight : 600;
+  border-radius : 30px;
+  -webkit-box-shadow: 27px 26px 22px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 27px 26px 22px 0px rgba(0,0,0,0.75);
+  box-shadow: 27px 26px 22px 0px rgba(0,0,0,0.75);
+}
+
+/* .innerbox {
+  margin : 10px;
+  padding : 10px;
+  background-color : whitesmoke;
+  border-radius : 10px;
+   -webkit-box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+} */
+
+.btn {
+  margin-top : 15px;
+  font-size : 18px;
+  font-weight : 600;
+  letter-spacing : 2px;
+  -webkit-box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 18px 0px rgba(0,0,0,0.75);
+}
+
+.btn:hover {
+  background-color : crimson;
+  transform : scale(1.2);
+  cursor : pointer;
+  color : black;
+  font-weight : bold;
+  -webkit-box-shadow: 9px 9px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 18px 0px rgba(0,0,0,0.75);
+}
+
+#author {
+  color : blue;
+  font-weight : bold;
+/*   text-decoration : underline */
+}
+
+.speech-bubble {
+	position: relative;
+/* 	background: #18a376; */
+  background : orange;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 85%;
+	width: 0;
+	height: 0;
+	border: 26px solid transparent;
+/* 	border-top-color: #18a376; */
+  border-top-color : orange;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -13px;
+	margin-bottom: -26px;
+}
